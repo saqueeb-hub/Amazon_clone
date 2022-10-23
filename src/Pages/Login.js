@@ -5,30 +5,30 @@ import { auth } from './firebase';
 import useHistory from 'use-history';
 
 function Login() {
-  // const history = useHistory();
-  // const [email, setEmail] = useState('');
-  // const [password, setPassword] = useState(' ');
-  // const login = (event) => {
-  // event.preventDefault(); // this stops the refresh
-  // // do the login logic
-  //   auth
-  //     .signInWithEmailAndPassword(email, password)
-  //     .then((auth) => {
-  //       // logged in, redirect to homepage
-  //       history.push('/');
-  //     })
-  //     .catch((e) => alert(e.message));
-  // };
-  // const register = (event) => {
+  //   const history = useHistory();
+  //   const [email, setEmail] = useState('');
+  //   const [password, setPassword] = useState(' ');
+  //   const login = (event) => {
   //   event.preventDefault(); // this stops the refresh
-  //   // do the register logic
-  //   auth
-  //     .createUserWithEmailAndPassword(email, password)
-  //     .then((auth) => {
-  //       // created a user and logged in, redirect to homepage
-  //       history.push('/');
-  //     })
-  //     .catch((e) => alert(e.message));
+  //   // do the login logic
+  //     // auth
+  //     //   .signInWithEmailAndPassword(email, password)
+  //     //   .then((auth) => {
+  //     //     // logged in, redirect to homepage
+  //     //     history.push('/');
+  //     //   })
+  //     //   .catch((e) => alert(e.message));
+  //   };
+  //   const register = (event) => {
+  //     event.preventDefault(); // this stops the refresh
+  //     // do the register logic
+  // //     auth
+  // //       .createUserWithEmailAndPassword(email, password)
+  // //       .then((auth) => {
+  // //         // created a user and logged in, redirect to homepage
+  // //         history.push('/');
+  // })
+  // .catch((e) => alert(e.message));
 
   return (
     <div className="login">

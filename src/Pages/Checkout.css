@@ -14,3 +14,24 @@
   padding: 10px;
   border-bottom: 1px solid lightgray;
 }
+.checkout-header {
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  padding: 10px 0;
+  top: 0;
+  z-index: 100;
+}
+.back-btn,
+.back-btn::after,
+.back-btn::before {
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  margin-inline: 10px;
+  border-radius: 5px;
+}
